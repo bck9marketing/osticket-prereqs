@@ -22,7 +22,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
+- For the purposes of this tutorial, I will be using a virtual machine through Microsoft Azure. Link [here](https://github.com/bck9marketing/VM) to get one set up.
 - Item 2
 - Item 3
 - Item 4
