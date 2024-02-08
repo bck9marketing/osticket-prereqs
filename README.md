@@ -167,9 +167,35 @@ Before we can finish the osTicket installer we have to install HeidiSQL, so navi
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/bck9marketing/osticket-prereqs/assets/159003800/5abe1b02-a0d7-4b7e-8133-4de69ecbb718" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/bck9marketing/osticket-prereqs/assets/159003800/2f6184e3-53cf-4133-a488-30be0a26dbf7" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In our new HeidiSQL window we will now create a new database by right clicking "Unnamed" on the left > Create new > Database . Name this database "osTicket" and click ok.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/bck9marketing/osticket-prereqs/assets/159003800/7b79e481-6f5a-465a-89c6-502154dc4a8c" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+We can now go back to our osTicket installation form and fill out the remaining boxes by inputing "osTicket" under MySQL Database, "root" under MySQL Username, and "Password1" under MySQL Password. Click "Install Now". osTicket should now be installed!
+</p>
+<br />
+
+<p>
+<img src="https://github.com/bck9marketing/osticket-prereqs/assets/159003800/aeb67611-83ba-4ec3-9ae3-1d6e4789194d" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Before moving on to the next section, we're going to navigate to C:\inetpub\wwwroot\osTicket\ and delete the "setup" folder. Then go into the "include" folder and rechange the permissions for "ost-config.php". Same as before : Right click > Properties > Security tab > Advanced button> Open the Allow Everyone tab under Permission entries> Check only Read and Read & Execute>Ok>Apply>Ok. 
+</p>
+<br />
+
+<p>
+<img src="https://github.com/bck9marketing/osticket-prereqs/assets/159003800/c67cbd9f-ddb5-446a-aa36-c109c8d21a78" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+osTicket Help Desk Login Page : http://localhost/osTicket/scp/login.php<br>
+osTicket End User Page: http://localhost/osTicket/
 </p>
 <br />
