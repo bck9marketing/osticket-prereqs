@@ -79,18 +79,20 @@ Also inside that installation zip we're going to go ahead and install "VC_redist
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/bck9marketing/osticket-prereqs/assets/159003800/75bbaa8c-168f-47a8-afb1-94b31b492158" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next we're going to open Internet Information Services Manager as administrator by searching "ISS" in the windows search bar, right clicking "Internet Information Services (ISS) Manager" and clicking "Run as administrator"
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/bck9marketing/osticket-prereqs/assets/159003800/b1b43811-52b0-41c7-a494-141c9fe2d035" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/bck9marketing/osticket-prereqs/assets/159003800/b645d267-573b-49f8-8842-9dbfb95b7352" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/bck9marketing/osticket-prereqs/assets/159003800/4debbbc7-19e6-4f6c-bba4-ded5be08d8fb" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Once we're inside ISS Manager, open "PHP Manager" and then click "Register new PHP version". In the window that pops up click the "..." button and in the new File Explorer window that pops up, navigate to the "PHP" folder you created earlier. This folder should be in the directory C:\PHP. Inside the PHP folder should be a file named "php-cgi", click that file and then click open. Click ok. Now navigate back to home ISS Manager page by double clicking VM-1 in the top left and once there click the restart button on the right.
 </p>
 <br />
 
