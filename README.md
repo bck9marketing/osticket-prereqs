@@ -37,11 +37,10 @@ Once logged into our vm, we're going to download our installation files. This sh
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/bck9marketing/osticket-prereqs/assets/159003800/1b0d972d-f6c7-4b4e-9186-76c4961c41eb" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+Next we're going to open "Control Panel" by searching for it in the bottom left windows search bar. From there click "Programs".</p>
 <br />
 
 <p>
