@@ -22,8 +22,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- For the purposes of this tutorial, I will be using a virtual machine through Microsoft Azure. Link [here](https://github.com/bck9marketing/VM) to get one set up.
-- Item 2
+- For the purposes of this tutorial, I will be using a 4 vCPU virtual machine through Microsoft Azure. Link [here](https://github.com/bck9marketing/VM) to get one set up.
+- Download the necessary installation files through [Link 1](https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6) & [Link 2](https://www.heidisql.com/installers/HeidiSQL_12.3.0.6589_Setup.exe)
 - Item 3
 - Item 4
 - Item 5
