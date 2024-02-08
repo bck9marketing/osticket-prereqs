@@ -129,34 +129,40 @@ With those enabled refresh the osTicket installer page in your browser.
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/bck9marketing/osticket-prereqs/assets/159003800/50d1f741-610b-402a-89ac-0318f14f4642" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/bck9marketing/osticket-prereqs/assets/159003800/4b3c4e8a-18c6-4580-a26a-9f70d6a123e0" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Before continuing the osTicket browser install, navigate to "C:\inetpub\wwwroot\osTicket\include\" and rename the "ost-sampleconfig.php" file towards the bottom to "ost-config.php". Then right click this file and click "Properties".
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/bck9marketing/osticket-prereqs/assets/159003800/9d5216d5-3b3c-494f-9e66-01ffd0017ae4" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/bck9marketing/osticket-prereqs/assets/159003800/13bb05ef-4d26-4380-9bd7-c0efc3dc9f44" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/bck9marketing/osticket-prereqs/assets/159003800/d668f58b-b0e8-46f7-a164-556a3a44645c" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In this "Properties" window go to the "Security" tab and click the "Advanced" button. In the new window named "Advanced Security Settings for ost-config.php" click "Disable inheritance" and then select "Remove all inherited permissions from this object". Go back to the "Advanced Security Settings" window click "Add", click "Select a principle" in the next window, and in the window after that type in "Everyone" into the textbox. Click ok. Now in the "Permission Entry" window select all the permissions and click ok. Now back in the "Advanced Security Settings" window hit Apply then Ok.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/bck9marketing/osticket-prereqs/assets/159003800/adc881a7-80d5-49f8-9070-1dd8198c2131" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/bck9marketing/osticket-prereqs/assets/159003800/fb302c41-4463-4dad-b4f4-ba3aaa734961" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+With that out of the way we can now go back to our browser osTicket installer and click "Continue". For this tutorial we're going to fill out the installation form with basic test information. Take note of the entries I used for the form and copy them. Make sure you use different emails for the "Default Email" box under System Settings and the "Email Address" box under Admin User. "Password1" will be used for every password.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/bck9marketing/osticket-prereqs/assets/159003800/db09bb9e-7fba-4bea-a5b3-aa509c763453" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/bck9marketing/osticket-prereqs/assets/159003800/7253fccf-b024-4127-8a85-8827c84ccb35" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Before we can finish the osTicket installer we have to install HeidiSQL, so navigate to your downloads folder and install "HeidiSQL_12.3.0.6589_Setup". Launch HeidiSQL when the install is finished.<br>
+ With HeidiSQL open, click "New" in the bottom left. Type in "Password1" in the right Password text box and then click open.
 </p>
 <br />
 
