@@ -117,7 +117,7 @@ Within "ISS Manager" on the left expand "Sites" and then expand "Default Web Sit
 <img src="https://github.com/bck9marketing/osticket-prereqs/assets/159003800/88122fbd-7d8b-435a-8ac7-48e429d62ec9" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://github.com/bck9marketing/osticket-prereqs/assets/159003800/3357da42-fc29-456f-8113-3b5eb4ccb452" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://github.com/bck9marketing/osticket-prereqs/assets/159003800/d953a8ed-f210-4fba-b1da-e8e50c4da3d3" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://github.com/bck9marketing/osticket-prereqs/assets/159003800/97986285-c1e5-44a7-bfce-000014b14db2" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/bck9marketing/osticket-prereqs/assets/159003800/b9a615be-dfde-4d13-b421-bee5a5f4be1c" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Back to ISS Manager within that same "osTicket" folder, open PHP Manager on the right. Towards the bottom click "Enable or disable an extension". In this next page towards the bottom Disabled greyed out options, find and enable the following options by right clicking each one and clicking enable :<br>
