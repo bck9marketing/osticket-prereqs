@@ -58,23 +58,23 @@ From here click on "Turn Windows features on or off" underneath "Programs and Fe
 <img src="https://github.com/bck9marketing/osticket-prereqs/assets/159003800/eb6a0086-080c-4984-a105-6b506d2a281e" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Next we're going to create a folder named "PHP" inside our C drive. This can be done by opening File Explorer, clicking "This PC" on the left, clicking "Local Disk (C:)" on the right, right clicking within that window and clicking "New>Folder". We will also in another File Explorer window go into our zip file containing our installation files and install both "PHPManagerForISS_V1.5.0" and "rewrite_amd64_en-US"
+Next we're going to create a folder named "PHP" inside our C drive. This can be done by opening File Explorer, clicking "This PC" on the left, clicking "Local Disk (C:)" on the right, right clicking within that window and clicking "New>Folder". We will also in another File Explorer window go into our zip file containing our installation files and install both "PHPManagerForISS_V1.5.0" and "rewrite_amd64_en-US".
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/bck9marketing/osticket-prereqs/assets/159003800/e869c357-b099-4d35-b16a-4583d7f5ae78" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Within that installation zip, we're going to go inside the "php-7.3.8-nts-Win32-VC15-x86" zip file and then drag all of its contents into the "PHP" folder we just created.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/bck9marketing/osticket-prereqs/assets/159003800/f3ddfb33-29fc-4350-b42f-487cced39d4b" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Also inside that installation zip we're going to go ahead and install "VC_redist.x86" and "mysql-5.5.62-win32". For the mysql install, click "Typical" for the setup type and post install launch the configuration wizard. In the new window choose "Standard Configuration" and use "Password1" for the password. Leave everything else as is during the install.
 </p>
 <br />
 
