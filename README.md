@@ -92,31 +92,39 @@ Next we're going to open Internet Information Services Manager as administrator 
 <img src="https://github.com/bck9marketing/osticket-prereqs/assets/159003800/4debbbc7-19e6-4f6c-bba4-ded5be08d8fb" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Once we're inside ISS Manager, open "PHP Manager" and then click "Register new PHP version". In the window that pops up click the "..." button and in the new File Explorer window that pops up, navigate to the "PHP" folder you created earlier. This folder should be in the directory C:\PHP. Inside the PHP folder should be a file named "php-cgi", click that file and then click open. Click ok. Now navigate back to home ISS Manager page by double clicking VM-1 in the top left and once there click the restart button on the right.
+Once we're inside ISS Manager, open "PHP Manager" and then click "Register new PHP version". In the window that pops up click the "..." button and in the new File Explorer window that pops up, navigate to the "PHP" folder you created earlier. This folder should be in the directory C:\PHP. Inside the PHP folder should be a file named "php-cgi", click that file and then click open. Click ok. Now navigate back to the home ISS Manager page by double clicking VM-1 in the top left and once there click the restart button on the right.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/bck9marketing/osticket-prereqs/assets/159003800/c12f2033-f446-4939-9aed-810c40c435f6" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/bck9marketing/osticket-prereqs/assets/159003800/2ca74153-7d39-40c7-9740-a3fad1f2a0f2" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next go back to your installation zip, go inside the "osTicket-v1.15.8" zip file and copy the "upload" folder. This folder then needs to be pasted into "C:\inetpub\wwwroot". Once pasted there rename the "upload" folder to "osTicket". Once again restart the server inside "ISS Manager".
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/bck9marketing/osticket-prereqs/assets/159003800/dad12c0b-b981-46f9-b190-bb1cbe32ecd8" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Within "ISS Manager" on the left expand "Sites" and then expand "Default Web Site", click osTicket and then on the right, click "Browse*:80(http)". This will open your browser with an osTicket installer. Leave that window be for now.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/bck9marketing/osticket-prereqs/assets/159003800/88122fbd-7d8b-435a-8ac7-48e429d62ec9" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/bck9marketing/osticket-prereqs/assets/159003800/3357da42-fc29-456f-8113-3b5eb4ccb452" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/bck9marketing/osticket-prereqs/assets/159003800/d953a8ed-f210-4fba-b1da-e8e50c4da3d3" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/bck9marketing/osticket-prereqs/assets/159003800/97986285-c1e5-44a7-bfce-000014b14db2" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Back to ISS Manager within that same "osTicket" folder, open PHP Manager on the right. Towards the bottom click "Enable or disable an extension". In this next page towards the bottom Disabled greyed out options, find and enable the following options by right clicking each one and clicking enable :<br>
+ - php_imap.dll<br>
+ - php_intl.dll<br>
+ - php_opcache.dll<br>
+With those enabled refresh the osTicket installer page in your browser.
 </p>
 <br />
 
