@@ -50,15 +50,15 @@ Next we're going to open "Control Panel" by searching for it in the bottom left 
 </p>
 <p>
 From here click on "Turn Windows features on or off" underneath "Programs and Features". In the window that pops up, search for and then check "Internet Information Services". Now expand the "Internet Information Services" folder that you just checked on by clicking the + button next to it. Within this folder we want to expand the "World Wide Web Services" folder, and within THAT folder expand "Application Development Features" and check "CGI". Going back to the "World Wide Web Services" folder, expand "Common HTTP Features" and make sure everything inside is checked on.<br>
- Compare your folder with the image above and once sure everything is correct, click ok and let windows install everything.
+ Compare your folder with the image above and once sure everything is correct, click ok and let windows install everything. Close out of that window and the control panel once windows completes the changes.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/bck9marketing/osticket-prereqs/assets/159003800/eb6a0086-080c-4984-a105-6b506d2a281e" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next we're going to create a folder named "PHP" inside our C drive. This can be done by opening File Explorer, clicking "This PC" on the left, clicking "Local Disk (C:)" on the right, right clicking within that window and clicking "New>Folder". We will also in another File Explorer window go into our zip file containing our installation files and install both "PHPManagerForISS_V1.5.0" and "rewrite_amd64_en-US"
 </p>
 <br />
 
